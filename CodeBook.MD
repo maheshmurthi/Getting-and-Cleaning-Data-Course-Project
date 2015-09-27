@@ -15,3 +15,29 @@ As part of the Objective, only the Mean and Std Deviation Features have been ext
 
 The Code File - run_analysis.R - contains information on each of the steps carried out
 
+### VARIABLES USED
+
+X_Test - Data Frame for storing x_test.txt
+Y_Test - Data Frame for storing y_test.txt
+Subject_Test - Data Frame for storing subject_test.txt
+
+X_Train - Data Frame for storing x_train.txt
+Y_Train - Data Frame for storing y_train.txt
+Subject_Train - Data Frame for storing subject_train.txt
+
+x_dataset - By Binding X_Test and X_Train
+y_dataset - By Binding Y_Test and X_Train
+s_dataset - By Binding S_Test and S_Train
+
+the_features - Data Frame from features.txt
+the_activities - Data Frame from activities.txt
+
+meanstd_cols - the column numbers from Features,txt which has mean and std 
+desired_set - using the meanstd_cols pick up the data set from x_dataset
+names(desired_set) - assigns the headers to the desired set
+
+completedata - merge all 3 data sets ie., desired_set, y_dataset, s_dataset
+
+numcolwise(mean) is a plyr function to calculate the mean of the columns in a dataframe
+
+
