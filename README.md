@@ -16,5 +16,5 @@ Objective is to:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each
 variable for each activity and each subject.
 
-Please follow the CODEBOOK.MD - that explains the process followed 
+Please follow the CODEBOOK.MD - that explains the process followed.
 Code Comments also provide information on what was done
